@@ -1,0 +1,34 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures full height */
+}
+
+main {
+  flex-grow: 1;
+  margin-top: 600px; /* Adjust this value as needed */
+  padding-top: 20px; /* Pushes footer to the bottom */
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #050505;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.container{
+    margin-top: 70px; 
+}

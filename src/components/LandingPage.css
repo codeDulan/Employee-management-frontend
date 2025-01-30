@@ -1,0 +1,31 @@
+.hero {
+  background: linear-gradient(90deg, #1f1f1f, #007bff);
+  color: white;
+  padding: 80px 20px;
+}
+
+.features {
+  background: #f8f9fa;
+  padding: 60px 20px;
+}
+
+.feature-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+}
+
+.testimonials {
+  background: #28a745;
+  color: white;
+  padding: 60px 20px;
+}
+
+.footer {
+  background: #000;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
